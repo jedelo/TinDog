@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica,
+     sans-serif;
+}
+
+
+nav{
+    height: 6.5em;
+    width: 100%;
+    /* background-color: lightgreen; */
+    border-bottom: solid 5px
+     #960000;
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    margin: 8%;
+    /* background-color: burlywood; */
+    border-right: solid 1px
+     lightgrey;
+     padding-right: 5px;
+}
+
+nav .nav-links{
+    height: 100%;
+    width: 26%;
+    /* background-color:darksalmon; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a{
+    /* border: solid 1px blue; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: grey;
+}
+
+.nav-links a:hover{
+    background-color: #960000;
+    color: whitesmoke;
+}
+
+header{
+    height: 3.5em;
+    width: 100%;
+    background: rgba(26, 121, 40, 0.9);
+    border-bottom: solid 10px
+    rgb(222, 222, 222);
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    color: whitesmoke;
+    font-weight: lighter;
+    margin-left: 8%;
+    
+}
+
+
+.first-section{
+    height: 8em;
+    width: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.first-section .first-section-items{
+    height: 100%;
+    width: 87%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+}
+
+.first-section-items .child-one{
+height: 80%;
+width: 60%;
+/* background-color: #999; */
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0 0 3px #999;
+
+h3{
+    font-weight: lighter;
+}
+
+}
+
+
+.first-section-items .child-two{
+    height: 100%;
+    width: 40%;
+    /* background-color: coral; */
+    text-align: center;
+    a{
+        /* background-color: lime; */
+        display: block;
+        text-decoration: none;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        color: #53555c;
+    }
+
+    img{
+        height: 65%;
+    }
+}
+
+.master-parent{
+    height: 20em;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent2{
+    height: 18em;
+    width: 88%;
+    /* background-color: green; */
+    border-radius: 8px;
+    box-shadow: 0 0 3px;
+    margin-top: 10px;
+    margin-bottom: 10;
+    display: flex;
+    align-content: center;
+img{
+    border-radius: 8px; 
+}
+
+}
+
+.container4{
+    align-items: center;
+    height: 130px;
+    width: 88%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    margin-left: 6%;
+    margin-top: 25px;
+    border-radius: 8px;
+    border: solid 1px;
+}
+
+.container4 div{
+
+    .onep{
+        color: #960000;
+        display: flex;
+        font-size: 25px;
+        display: block;
+        
+    }
+    
+    .tag{
+        /* justify-content: center; */
+        display: block;
+        align-items: center;
+        text-align: center;
+      
+        
+    }
+
+    a{text-decoration: none;
+        color: #4f8db3;
+
+    }
+
+
+
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.fourth-section{
+    height: 12.5em;
+    width: 100%;
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.three-boxes-con{
+    height: 100%;
+    width: 87%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-between;
+
+    div{
+        height: 100%;
+        width: 30%;
+        box-shadow: 0 0 3px grey;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    img{
+        margin-top: 10%;
+    }
+
+    h3{
+        background-color: green;
+        margin-top: 1.7%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 7px;
+        background-color: rgba(0, 124, 0, 0.20);
+        color: #003300;
+        font-size: 17px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        border-radius: 10px;
+
+    }
+
+    a{
+        color: #4f8db3;
+        text-decoration: none;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+    
+    
